@@ -63,6 +63,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '289114548704',
     projectId: 'app-job-timer-flutter',
     storageBucket: 'app-job-timer-flutter.appspot.com',
+    androidClientId: '289114548704-brb90cnerh9cq16l4acfh4ef7s3ho8ld.apps.googleusercontent.com',
     iosClientId: '289114548704-p5osu9g8nsq4qirlpll0qbjo4aplnpkf.apps.googleusercontent.com',
     iosBundleId: 'com.fine.jobTimerApp',
   );

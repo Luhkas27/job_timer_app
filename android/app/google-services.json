@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "289114548704-brb90cnerh9cq16l4acfh4ef7s3ho8ld.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fine.job_timer_app",
+            "certificate_hash": "5c3b726aff2ce99a2a57f99e4c75036b04e1fa33"
+          }
+        },
+        {
           "client_id": "289114548704-cietl9q3fakrc89ta013cfp59nirs6jk.apps.googleusercontent.com",
           "client_type": 3
         }
