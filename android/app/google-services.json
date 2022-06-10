@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "289114548704",
+    "project_id": "app-job-timer-flutter",
+    "storage_bucket": "app-job-timer-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289114548704:android:3b29fa6276c3e767982385",
+        "android_client_info": {
+          "package_name": "com.fine.job_timer_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289114548704-cietl9q3fakrc89ta013cfp59nirs6jk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApaHSMJMfL5bi5Xd5VQdW1Mg1WkvIFXUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289114548704-cietl9q3fakrc89ta013cfp59nirs6jk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "289114548704-p5osu9g8nsq4qirlpll0qbjo4aplnpkf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fine.jobTimerApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
