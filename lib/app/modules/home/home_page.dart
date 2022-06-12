@@ -4,6 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:job_timer_app/app/modules/home/controller/home_controller.dart';
 
 import 'package:job_timer_app/app/modules/home/widgets/header_projects_menu.dart';
+import 'package:job_timer_app/app/modules/home/widgets/project_tile.dart';
 import 'package:job_timer_app/app/view_models/project_model.dart';
 
 class HomePage extends StatelessWidget {
@@ -46,7 +47,7 @@ class HomePage extends StatelessWidget {
                 ),
               ),
               SliverPersistentHeader(
-                delegate: HeaderProjectsMenu(),
+                delegate: HeaderProjectsMenu(controller: controller),
                 pinned: true,
               ),
               BlocSelector<HomeController, HomeState, bool>(
@@ -73,9 +74,8 @@ class HomePage extends StatelessWidget {
                     delegate: SliverChildListDelegate(
                       projects
                           .map(
-                            (project) => ListTile(
-                              title: Text(project.name),
-                              subtitle: Text('${project.estimate}h'),
+                            (project) => ProjectTile(
+                              projectModel: project,
                             ),
                           )
                           .toList(),
